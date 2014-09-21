@@ -1,6 +1,5 @@
 __author__ = 'glassman'
 
-def extractStartStopTimes(classDayTime): #Info comes in format like 10:00-11:30p
     classStartEnd = classDayTime[1].split('-') #Want to seperate start and stop times
     if classStartEnd[0].endswith('a'): #Find classes that start in the morning
         classStartEnd[0] = classStartEnd[0][:-1] #Strip the 'a'
