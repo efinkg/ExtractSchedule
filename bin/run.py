@@ -1,5 +1,5 @@
 #Run extractSchedule
 #Author Ethan Glassman
 
-import pullClassInfo
-pullClassInfo
+import app\pullClassInfo.p
+    pullClassInfo
